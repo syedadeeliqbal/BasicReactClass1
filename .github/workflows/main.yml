@@ -35,4 +35,4 @@ jobs:
       run: sudo npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build reactClass1-SyedAdeelIqbal2.surge.sh --token ${{secrets.SURGE_TOKEN }}
+      run: surge ./build reactClass1-SyedAdeelIqbal3.surge.sh --token ${{secrets.SURGE_TOKEN }}
